@@ -1,11 +1,13 @@
-# Latin-page
+# Math-overview
 Website for overview of functions and graphs.
 ## Technologies
 ### CSS:
-[w3.css] - Modern Responsive CSS
+[bootstrap.css] - Build fast, responsive sites with Bootstrap
 [open-ionic] - The definitive icon set designed for the modern web
+[plotly] - Plotly JavaScript Open Source Graphing Library
 
-[w3.css]: <https://www.w3schools.com/w3css/>
+[bootstrap.css]: <https://getbootstrap.com/>
+[plotly]: <https://plotly.com/javascript/>
 [open-ionic]: <https://useiconic.com/>
 [github-pages]: <https://lacrimus.github.io/math-overview/index.html>
 
