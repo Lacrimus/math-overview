@@ -1,0 +1,60 @@
+/*Primary color scheme for backgrounds and panels*/
+.color_primary {
+  color:#4c72c8;
+  background-color:#4c72c8
+}
+
+.main-content {
+  padding: 0.4em 1em;
+}
+
+/*Bullet lists*/
+ul.list-squared {
+  list-style-type: square;
+}
+
+.card-header-section {
+  margin-top: 0.8em;
+}
+
+.card-maxwidth {
+  max-width: max-content !important;
+}
+
+.card-file-archive {
+  top: 5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  top: 0px;
+}
+
+/*Iconic*/
+img.icon {
+  width: 16px;
+  height: 16px;
+}
+
+img.icon-right {
+  float: right;
+}
+
+footer.bottom {
+  bottom: 0px;
+}
+
+/*Breakpoint for desktop/widescreen <--> tablet*/
+@media screen and (max-width: 610px) {
+
+}
+
+/*Breakpoint for tablet <--> phone*/
+@media screen and (max-width: 425px) {
+  .card-file-archive {
+    top: 14%;
+  }
+}

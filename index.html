@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <title>Übersicht von Funktionen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
+        <img class="icon" title="graph" aria-hidden="true" src="node_modules/open-iconic/svg/graph.svg" alt="graph icon">
+        <span class="text-secondary">Funktionen</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav-collapse" class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto my-0.5">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Eigenschaften</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="nav-grund" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Grundbausteine</a>
+            <div class="dropdown-menu" aria-labelledby="nav-grund" aria-expanded="false" role="button">
+              <a href="#grund" class="dropdown-divider">Ganzrationale Funktionen</a>
+              <a href="#grund-lin" class="dropdown-item">Lineare Funktion</a>
+              <a href="#grund-quad" class="dropdown-item">Quadratische Funktion</a>
+              <a href="#grund-drit" class="dropdown-item">Ganzrationale Funktion dritten Grades</a>
+              <a href="#grund-hoeh" class="dropdown-item">Ganzrationale Funktion höheren Grades</a>
+              <a href="#grund" class="dropdown-divider">Andere Funktionen</a>
+              <a href="#grund-trig" class="dropdown-item">Trigonometrische Funktion</a>
+              <a href="#grund-expo" class="dropdown-item">Exponentialfunktion</a>
+              <a href="#grund-loga" class="dropdown-item">Logarithmusfunktion</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a id="nav-verkn" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Verknüpfte Funktionen</a>
+            <ul class="dropdown-menu" aria-labelledby="nav-verkn" aria-expanded="false" role="button">
+              <a href="#verkn-" class="dropdown-item">---</a>
+            </ul>
+          </li>
+          <li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-content padding">
+    <div class="d-flex justify-content-between">
+      <span class="">2M3 - Q12</span>
+      <span class="float-right">Jan Greiner</span>
+    </div>
+    <div class="center text-black-50">
+      <h1>VI Anwendung der Differential- und Integralrechnung</h1>
+      <h2>Kapitel 4 - Untersuchung verknüpfter Funktionen</h2>
+    </div>
+    <div class="container">
+      <section>
+        <h4 class="text-secondary"><b>Eigenschaften von Funktionen</b>
+          <img class="icon" src="node_modules/open-iconic/svg/list.svg" alt="list icon">
+        </h4>
+        <div class="jumbotron">
+          <p>Test</p>
+        </div>
+      </section>
+
+      <section id="grund">
+        <h4 class="text-black-50"><b>Grundbausteine</b>
+          <img class="icon" src="node_modules/open-iconic/svg/grid-three-up.svg" alt="grid-three-up icon">
+        </h4>
+        <section id="grund-lin">
+          <div class="card">
+            <div class="card-header">
+              <h5>Lineare Funktion</h5>
+            </div>
+            <div id="plotLinear"></div>
+          </div>
+        </section>
+        <hr>
+        <section id="grund-quad">
+          <div class="card">
+            <div class="card-header">
+              <h5>Quadratische Funktion</h5>
+            </div>
+            <div class="card-body">
+              <div id="plotQuad"></div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section id="verkn">
+        <h4 class="text-black-50"><b>Verknüpfte Funktionen</b>
+          <img class="icon" src="node_modules/open-iconic/svg/link-intact.svg" alt="link-intact icon">
+        </h4>
+        <div class="jumbotron">
+          <p>Verknüpfte Funktionen</p>
+        </div>
+      </section>
+
+    </div>
+  </div>
+
+  <footer class="aligned-bottom container-fluid navbar bg-light">
+    <p class="nav-item">© <a id="footer-year"></a> Jan Greiner</p>
+    <p class="nav-item">Der Quellcode ist auf <a href="https://github.com/Lacrimus/math-overview">Github</a> einzusehen</p>
+    <a class="nav-item" href="impressum.html">Impressum</a>
+    <a class="nav-item" href="dsvgo.html">DSVGO</a>
+  </footer>
+  <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js" charset="utf-8"></script>
+  <script src="node_modules/plotly.js-dist/plotly.js" charset="utf-8"></script>
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>

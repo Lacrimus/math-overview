@@ -1,0 +1,25 @@
+{
+  "name": "math-overview",
+  "version": "0.1.0",
+  "description": "Overview of mathematical functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lacrimus/math-overview.git"
+  },
+  "author": "Lacrimus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lacrimus/math-overview/issues"
+  },
+  "homepage": "https://github.com/Lacrimus/math-overview#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "open-iconic": "^1.1.1",
+    "plotly.js-dist": "^1.58.4"
+  }
+}
